@@ -1,0 +1,305 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* ############# GLOBAL ############# */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.dark {
+  padding: 15px;
+  background-color: rgba(225, 154, 31, .8);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.text-align {
+  text-align: justify;
+}
+
+/* ############# Header ############# */
+header {
+  background-color: rgba(185, 0, 101, 0.8);
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid rgba(225, 154, 31, .8);
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 60px;
+}
+
+header .current a {
+  color: #190A12;
+}
+
+header .hover:hover {
+  color: rgba(225, 154, 31, .8);
+  border-bottom: 3px solid rgba(225, 154, 31, .8);
+  padding-bottom: 5px;
+  transition: all .4s ease-in-out;
+}
+
+/* ############# showcase ############# */
+#showcase {
+  min-height: 600px;
+  background-image: url('../img/beautyBg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat, 400px;
+  text-align: center;
+  color: #fff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 70px;
+  margin-bottom: 10px;
+  text-shadow: 5px 5px 7px rgba(185, 0, 101, 0.8);
+}
+
+#showcase p {
+  font-size: 40px;
+  color: rgba(185, 0, 101, 0.8);
+  text-shadow: 5px 5px 7px #fff;
+  font-weight: bold;
+}
+
+button.button {
+  background-color: rgba(185, 0, 101, 0.8);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+button.button:hover {
+  color: rgba(185, 0, 101, 0.8);
+  background-color: #fff;
+  border: 3px solid rgba(185, 0, 101, 0.8);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ############# #main-col ############# */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+article#main-col p {
+  font-size: 20px;
+  margin-bottom: 20px
+}
+
+h1.page-title {
+  font-size: 50px;
+  color: rgba(185, 0, 101, 0.8);
+  text-align: center;
+}
+
+h1.treatment-title {
+  font-size: 50px;
+  color: rgba(185, 0, 101, 0.8);
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  margin-top: ;
+  color: #fff;
+  background-color: rgba(185, 0, 101, 0.8);
+  text-align: center;
+  border-top: 3px solid rgba(225, 154, 31, .8);
+  ;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+/* ############# #sidebar ############# */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+/* ############# Tables ############# */
+.bg {
+  background-image: url('../img/beautyBg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.t-title {
+  font-size: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 97%;
+  background-color: rgba(255, 255, 255, 0.35);
+  color: #000;
+  margin-left: 10px;
+  opacity: 1.3;
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+}
+
+tr:nth-child(even):hover {
+  background-color: #f2f2f2;
+}
+
+.treatments {
+  width: 30%;
+  margin-top: 20px;
+  float: left;
+  margin-right: 10px;
+  padding: 0 10px 0 0;
+  margin-bottom: 20px;
+}
+
+#contact {
+  min-height: 400px;
+  margin-top: 100px;
+  text-align: center;
+  background-image: url('img/beautyBg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-wrapper {
+  background-color: rgba(192, 192, 192, .3);
+  border-radius: 20px;
+  padding-bottom: 10px;
+  padding-top: 1px;
+}
+
+.font {
+  color: rgba(185, 0, 101, 0.8);
+  font-size: 40px;
+}
+
+.contact-title {
+  color: #000;
+  font-size: 25px;
+}
+
+.contact-info {
+  color: #000;
+  font-size: 20px;
+}
+
+address a {
+  text-decoration: none;
+  color: #000;
+}
+
+address a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.email {}
+
+@media (max-width: 768px) {
+
+  header#branding,
+  header nav,
+  header nav li,
+  table.treatments,
+  article#main-col,
+  aside#sidebar,
+    {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header .hover:hover {
+    padding-bottom: 1px;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+
+  h1.treatment-title {
+    font-size: 30px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -100px;
+    margin-top: -50px;
+  }
+
+  button {
+    margin-bottom: 30px;
+  }
+
+  .contact-title {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+}
